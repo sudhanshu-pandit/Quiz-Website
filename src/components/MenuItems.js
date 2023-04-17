@@ -21,7 +21,7 @@ export const MenuItems = [
   },
 
   {
-    title : "What's New", 
+    title : "What's New?", 
     url : "/whatsnew",
     cName : "nav-links",
     icon : "fa-solid fa-sparkles"

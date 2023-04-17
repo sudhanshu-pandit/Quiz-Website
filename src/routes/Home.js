@@ -1,6 +1,8 @@
 import Navbar from "../components/navbar";
 import Hero from "../components/Hero";
 import Image from "../assets/header-bg.jpg";
+import Category from "../components/Category";
+import Whatsnew from "./Whatsnew";
 
 function Home (){
     return(
@@ -14,7 +16,8 @@ function Home (){
         url="/"
         btnClass="show"
         />
-    
+        <Category/>
+        <Whatsnew/>
         </>
     );
 }

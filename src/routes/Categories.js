@@ -1,7 +1,13 @@
+import Navbar from "../components/navbar";
+import Category from "../components/Category";
+import Footer from "../components/Footer";
+
 function Categories (){
     return(
         <> 
-        <h1>This is Categories</h1>
+        <Navbar/>
+        <Category/>
+        <Footer/>
         </>
     );
 }
