@@ -1,17 +1,12 @@
 import Navbar from "../components/navbar";
-import Hero from "../components/Hero";
-import Img from "../assets/map.jpg";
 import Footer from "../components/Footer";
+import QuestionForm from "../components/QuestionFrom";
 
 function Askaquestion (){
     return(
         <>
-         <Navbar/>
-         <Hero
-         cName="hero-mid"
-         heroImg={Img}
-         title= "Ask a Question?"
-        />
+        <Navbar/>
+        <QuestionForm/>
         <Footer/>
         </>
     );

@@ -2,7 +2,9 @@ import Navbar from "../components/navbar";
 import Hero from "../components/Hero";
 import Image from "../assets/header-bg.jpg";
 import Category from "../components/Category";
-import Whatsnew from "./Whatsnew";
+import Team from "./Team";
+import QuestionForm from "../components/QuestionFrom";
+import New from "../components/New";
 
 function Home (){
     return(
@@ -17,7 +19,9 @@ function Home (){
         btnClass="show"
         />
         <Category/>
-        <Whatsnew/>
+        <New/>
+        <QuestionForm/>
+        <Team/>
         </>
     );
 }

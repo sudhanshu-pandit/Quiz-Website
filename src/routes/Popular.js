@@ -1,7 +1,10 @@
+import Navbar from "../components/navbar";
+
 function Popular (){
     return(
         <>
-         <h1>This is Popular</h1>
+        <Navbar/>
+        <h1>This is Popular</h1>
         </>
     );
 }
