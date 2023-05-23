@@ -5,6 +5,8 @@ import Category from "../components/Category";
 import Team from "./Team";
 import QuestionForm from "../components/QuestionFrom";
 import New from "../components/New";
+import Slider from "../components/Slider";
+
 
 function Home (){
     return(
@@ -19,6 +21,7 @@ function Home (){
         btnClass="show"
         />
         <Category/>
+        <Slider/>
         <New/>
         <QuestionForm/>
         <Team/>
